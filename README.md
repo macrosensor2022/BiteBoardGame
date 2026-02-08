@@ -1,18 +1,22 @@
-# 🎮 BiteBoard Game
+# BiteBoard Game
 
-A 2-player Java chocolate board game.
+A 2-player Java chocolate board game with Swing GUI.
 
-## 🧱 Classes
-- BiteBoardGame → Main class
-- BiteBoardGameModel → Game logic
-- BiteBoardGUI → GUI window
-- BiteBoardPanel → Draws board & handles clicks
+## Classes
 
-## 🖥 Gameplay
+- `BiteBoardGame` - Main class
+- `BiteBoardGameModel` - Game logic
+- `BiteBoardGUI` - GUI window
+- `BiteBoardPanel` - Board rendering and click handling
+
+## Gameplay
+
 ![Gameplay](resources/gameplay.gif)
 
-## 🚀 How to Run
+## How to Run
+
+```bash
 cd src
 javac *.java
 java BiteBoardGame
-
+```
